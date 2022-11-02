@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.Build.Traversal/3.0.3">
+    <ItemGroup>
+        <ProjectReference Include="**\*.*proj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+    </ItemGroup>
+</Project>

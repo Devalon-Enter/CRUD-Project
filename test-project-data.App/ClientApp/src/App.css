@@ -1,0 +1,31 @@
+.App {
+    height: 500px;
+    width: 500px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+/*Design Layout for Antd-Header*/
+.ant-layout-header {
+    height: 20vh;
+    width: 100%;
+}
+
+/*Design Layout for Antd-Content*/
+.ant-layout-content {
+    height: 60vh;
+    width: 100%;
+}
+
+/*Design Layout for Antd-footer*/
+.ant-layout-footer {
+    height: 20vh;
+    width: 100%;
+}
+
+iframe {
+    pointer-events: none;
+}

@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/lorin-test-project/build.proj": {}
+  },
+  "projects": {
+    "/workspaces/lorin-test-project/build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/lorin-test-project/build.proj",
+        "projectName": "build",
+        "projectPath": "/workspaces/lorin-test-project/build.proj",
+        "packagesPath": "/home/node/.nuget/packages/",
+        "outputPath": "/workspaces/lorin-test-project/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/node/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44495",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/workspaces/lorin-test-project/test-project-data.App/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}
